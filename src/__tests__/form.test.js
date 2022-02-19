@@ -14,6 +14,5 @@ describe('Testing our form component', () => {
     fireEvent.click(button);
   
     expect(callback).toHaveBeenCalled();
-    expect(callback).toHaveBeenCalledWith({method: "get",url:"",body:null});
   });
 });
